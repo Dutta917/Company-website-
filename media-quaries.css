@@ -1,0 +1,273 @@
+@media screen and (max-width:1024px) {
+    /* upper-bar and nav-bar */
+
+
+    .nav-bar{
+        flex-direction: row;
+    }
+    #boxcontent{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 145px;
+        left: 590px;
+    }
+
+    .upperbars{
+        background-size:100%;
+    }
+    #listforshort{
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }
+    #listforshort li , .bold-text{
+        margin-block:5px;
+    }
+    .list-bar{
+        display:flex;
+        flex-direction: column;
+        cursor:pointer;
+    }
+    .fa-solid{
+        width:30px;
+    }
+    .list-nav{
+        display: none;
+    }
+    .logo-nav{
+        height:35px;
+    }
+    .list-nav{
+        justify-content: center;
+    }
+
+    /* header section */
+
+    .header{
+        flex-direction:column-reverse;
+        flex-wrap:wrap;
+        padding-block:20px;
+    }
+
+    /* comapanies logo */
+    .companies-logo{
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    /* cards and logos */
+
+
+    .cards-header{
+        text-align:center;
+        padding-block:20px;
+    }
+    .cards-logo{
+        gap:10px;
+        justify-content:space-evenly;
+        padding-block:20px;
+        padding-inline:20px;
+        flex-basis:100%;
+        row-gap: 30px;
+    }
+    .cards-logo p{
+        font-size:1rem;
+    }
+    
+
+    /* Example section */
+
+    .example-cards{
+        gap:20px;
+    }
+    .example{
+        flex-basis:calc(50%-10px);
+    }
+    .examplecards:hover{
+        box-shadow: 0 0 6px black;
+        cursor: pointer;
+    }
+
+
+    /* cta section */
+
+
+    .cta{
+        justify-content: space-evenly;
+    }
+    .cta-content{
+        justify-content: center;
+        text-align:center;
+    }
+    .cta-img img{
+        height:400px;
+    }
+    .list-cta-content ul{
+        list-style-type: circle;
+        padding-top:5px;
+        padding-inline:20px;
+    }
+
+    /* 2ndcta section */
+
+
+    .nthcta-section{
+        flex-wrap:wrap;
+    }
+    .nthcta-section a{
+        padding-inline:200px;
+    }
+
+
+    /* footer section */
+
+    .footer{
+        padding-right:40px;
+
+    }
+}
+
+
+
+
+
+@media  screen and (max-width: 680px) {
+
+
+    /* variable */
+
+    /* upperbars and navbar*/
+
+    #boxcontent{
+        left: 11px;
+        height: 315px;
+        top: 100px;
+        background-color: white;
+        min-width: 371px;
+        padding-left: 155px;
+    }
+
+    .upperbars{
+        text-align: center;
+        flex-wrap: wrap;
+        height:60px;
+    }
+    .list-bar{
+        display:inline-block;
+    }
+    .fa-solid{
+        width:30px;
+    }
+    .list-nav{
+        display: none;
+    }
+    .logo-nav{
+        height:35px;
+    }
+    .list-nav{
+        justify-content: center;
+    }
+
+    /* header section */
+
+    .header-left {
+        padding-right:60px;
+    }
+    .header-left h1{
+        padding-left:20px;
+    }
+    .header-left p{
+        padding-right:60px;
+        font-size:1rem;
+    }
+    .header-right img{
+        width:300px;
+    }
+
+
+    /* cards section */
+
+    .cards-logo{
+        gap:40px;
+        justify-content: center;
+        flex-direction:column;
+        text-align:center;
+    }
+    .cards-sorting{
+        width:100%;
+    }
+    .atop{
+        padding:10px 10px;
+    }
+
+
+    /* big-feature section */
+
+
+
+    /* example section */
+
+    .example-cards{
+        justify-content: space-between;
+        gap:20px;
+        flex-wrap: wrap;
+    }
+    .example{
+        flex-basis:100%;
+    }
+
+    /* cta section */
+
+    .cta{
+        flex-direction:column-reverse;
+    }
+
+
+    /* 2nd cta section */
+
+    .nthcta-section{
+        text-align: center;
+    }
+    .nthcta-section a{
+        padding-inline:20px;
+    }
+
+    /* footer-section */
+
+    .footer-container{
+        flex-direction:column;
+        justify-content: space-evenly;
+        gap:20px;
+        flex-wrap:wrap;
+        align-items:center;
+    }
+    .footer-container a{
+        align-self:center;
+    }
+    .font-weight{
+        font-size:1rem;
+    }
+    .product-h2{
+        padding-left:20px;
+    }
+
+    /* sub-footer section */
+
+    .sub-footer{
+        flex-wrap:wrap;
+    }
+
+}
+
+
+@media screen and (max-width:375px){
+
+
+    #upperbars{
+        margin-left:0px;
+    }
+    .header-left{
+        margin-left:0 ;
+    }
+}

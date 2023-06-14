@@ -1,0 +1,4 @@
+
+    
+    listbar.style.display = 'none';
+    cross.style.display = 'block';
